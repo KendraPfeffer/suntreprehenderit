@@ -1,0 +1,40 @@
+{
+  "title": "AngularJS-nvD3",
+  "name": "suntreprehenderit",
+  "version": "1.4.0",
+  "description": "An AngularJS directive for NVD3.js reusable charting library",
+  "homepage": "https://github.com/KendraPfeffer/suntreprehenderit.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KendraPfeffer/suntreprehenderit.git"
+  },
+  "main": "dist/angular-nvd3.js",
+  "keywords": [
+    "angular",
+    "nvd3",
+    "dolores",
+    "voluptas",
+    "visualization",
+    "qui",
+    "et"
+  ],
+  "bugs": {
+    "url": "https://github.com/KendraPfeffer/suntreprehenderit.git/issues"
+  },
+  "license": "MIT License",
+  "author": "JerelCruickshank",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "karma": "~0.10",
+    "karma-coverage": "^0.2.1"
+  },
+  "scripts": {
+    "test": "karma start test/karma.conf.js",
+    "test-single-run": "karma start test/karma.conf.js --single-run"
+  }
+}
